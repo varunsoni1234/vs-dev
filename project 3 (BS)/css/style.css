@@ -1,0 +1,240 @@
+html {
+    scroll-behavior:smooth;
+}
+
+.bgimg {
+    background-image: url('bg1.jpg');
+    background-size: 100% 100%;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.70;
+}
+
+.headerset {
+    padding: 345px 0 60px;
+    box-sizing: border-box;
+    color: black;
+}
+
+.btn1{
+    border-radius: 20px;
+    border: none;
+    font-size: 1.7rem;
+    background-color: yellow;
+    padding: 2px 15px;
+    
+}
+
+.btn1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn1 a:hover{
+    font-size: 1.8rem;
+}
+
+.headerset h2 {
+    font-size: 30px;
+}
+
+.headerset h1 {
+    font-size: 40px;
+}
+
+.ourservices {
+    height: 700px;
+    padding-top: 100px;
+}
+
+.ourservices h1 {
+    font-weight: bold;
+}
+
+#para {
+    font-size: 25px;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.row p {
+    color: #002346;
+}
+
+#imgset {
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+#imgset i {
+    margin-top: 23px;
+}
+
+#img1 h2 {
+    margin: 25px 0;
+}
+
+
+.portfolio {
+    padding: 40px 0;
+    width: 100%;
+    background-color: rgb(169, 164, 164) !important;
+    height: 1000px;
+}
+
+
+.ourteam {
+    height: 800px;
+    padding: 100px 0 60px;
+    width: 100%;
+}
+
+figcaption h3 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+figcaption p {
+    font-size: 40px;
+}
+
+#rowset {
+    padding: 50px;
+}
+
+.contact{
+    height: 750px;
+    background-color: rgb(201, 199, 225);
+    padding: 50px 0px;
+    width: 100%;
+}
+
+.row{
+    margin-top: 50px ;
+}
+
+#input{
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    padding-left: 0 ;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-transform: uppercase;
+}
+
+#input::placeholder{
+    color: black;
+}
+
+#email{
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    padding-left: 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#email::placeholder{
+    color: black;
+}
+
+#txt{
+    border-radius: 5px;
+    background: transparent;
+    border: none;
+    padding-left: 0;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#txt::placeholder{
+    color: black;
+}
+
+
+.about{
+    height: 650px;
+    width: 100%;
+    padding: 100px 0;
+    padding-bottom: 60px;
+}
+
+#social{
+    display: flex;
+    justify-content: center;
+}
+
+.widget{
+    font-size: 20px;
+}
+
+.widget li a{
+    text-decoration: none;
+}
+
+
+.footer {
+    height: 50px;
+    background-color: rgb(200, 199, 199);
+}
+
+.footer h6 {
+    line-height: 50px;
+}
+
+
+/* **************************** responsiveness ************************/
+
+/* large */
+@media(min-width:992) {}
+
+/* medium */
+@media(min-width:768) and (max-width:991) {
+    .ourservices{
+        height: 1500px;
+    }
+
+}
+
+/* small */
+@media(min-width:575) and (max-width:767) {
+   
+}
+
+@media(min-width:460) and (max-width:574) {
+    .ourservices{
+        height: 900px;
+    }
+}
+
+/* portrait mode */
+@media(max-width:450) {
+    .headerset {
+        padding: 380px 0 60px;
+        box-sizing: border-box;
+        color: black;
+    }
+
+    .headerset h2 {
+        font-size: 30px;
+    }
+    
+    .headerset h1 {
+        font-size: 30px;
+    }
+    /* .ourservices {
+        height: 1450px!important;
+    } */
+
+
+}
